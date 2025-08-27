@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-12-19T12:00:00Z",
+  "author": "bingxue5890",
+  "description": "亚马逊批量采购助手远程配置",
+  
+  "features": {
+    "batchOrder": true,
+    "addressManagement": true,
+    "excelImport": true,
+    "autoFill": true
+  },
+  
+  "ui": {
+    "hideElements": [],
+    "customCSS": "/* 自定义样式 */\n.plugin-panel { border: 2px solid #27a844; }\n.plugin-panel .h { background: linear-gradient(135deg, #27a844 0%, #20c997 100%); }",
+    "theme": "default"
+  },
+  
+  "security": {
+    "authorizedDevices": [],
+    "blockedDevices": [],
+    "requireAuthorization": false
+  },
+  
+  "messages": {
+    "unauthorized": "🔒 设备未授权，请联系管理员获取访问权限\n设备ID将显示在控制台中",
+    "disabled": "⚠️ 此功能已被管理员临时禁用\n如有疑问请联系技术支持",
+    "update": "✅ 插件配置已更新，新功能已生效",
+    "welcome": "🎉 欢迎使用亚马逊批量采购助手！\n远程管理功能已启用"
+  },
+  
+  "limits": {
+    "maxOrdersPerDay": 200,
+    "maxDevicesPerUser": 10,
+    "configUpdateInterval": 300000
+  },
+  
+  "notifications": {
+    "showUpdateNotice": true,
+    "showUsageTips": true,
+    "showWelcomeMessage": true
+  },
+  
+  "advanced": {
+    "debugMode": false,
+    "logLevel": "info",
+    "enableAnalytics": false
+  },
+  
+  "contact": {
+    "support": "GitHub Issues",
+    "repository": "https://github.com/bingxue5890/caigou",
+    "documentation": "https://github.com/bingxue5890/caigou/blob/main/README.md"
+  }
+}
